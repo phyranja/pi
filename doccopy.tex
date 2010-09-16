@@ -212,7 +212,7 @@ emptyfile.txt
 \item[\bf{touch FILE}] updates access and modification time to current time. If FILE doesn't exist it creates an empty file.
 \item[\bf{touch -t YYYYMMDDhhmm.ss FILE}] canges access and modification time tothe indicated time.
 \item[\bf{mv -t NAME1 NAME2}] moves NAME2 into NAME1
-\item[\bf{mv NAME1/NAME2 .}]  to remove NAME1 from NAME2 and place it in the current directory
+[item[\bf{mv NAME1 PATH/NAME2}]  moves NAME1 to the directory NAME2 (if they aren't in the same directory jet)
 \item[\bf{mv -T  NAME1 NAME2}] to change the name of NAME1 into NAME2. If there is already an Object named NAME2 it will be overwrittent.
 \item[\bf{cp -T NAME1 NAME2}] does a copy of the File NAME1 called NAME2.
 \item[\bf{cp -r DIR1 DIR2}]  does a copy of the directory DIR1 called DIR2.
